@@ -1,0 +1,21 @@
+Package: flower_model
+Type: Analyses
+Title: Mecanistic model on pollinator visits at the flower scale
+Version: 0.0.0.0000
+Authors@R: c(
+    person(given   = "Estelle",
+           family  = "Barbot",
+           role    = c("aut", "cre", "cph"),
+           email   = "estelle.barbot@protonmail.com",
+           comment = c(ORCID = "0000-0001-6790-2429")))
+Description: Exploring the importance of several pollinator visit proxies including visit order for the siring success.
+License: GPL-2
+Encoding: UTF-8
+Remotes:
+Imports: 
+    here,
+    provoc,
+    dplyr,
+    tidyr,
+    tibble,
+    stringr

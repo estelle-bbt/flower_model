@@ -1,0 +1,6 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+.Random.seed|object|a3d6591822198b81
+load_data|function|61dd1713ca7e555e
+data_obs|stem|c6af6459167bc3ce|1a099c3928234742|b46a63703d840917|-1580520765||t20307.6351818738s|s49216b|49216|rds|local|vector|||0.052||
+data_paternities|stem|181e3fd3eff279e3|2dd814d0b129e6be|b46a63703d840917|-778639693||t20307.6351826608s|s14151b|14151|rds|local|vector|||0.003||
+index|stem|a657bdfb1143d329|ac7bb895268bf3b8|2c530c1562a7fbd1|554519753|index_files*index.html*index.qmd|t20307.6352226022s|s1949960b|1949960|file|local|vector|||3.461||
