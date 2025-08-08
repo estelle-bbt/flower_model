@@ -19,3 +19,26 @@ load_data <- function(file_path){
   
   return(data)
 }
+
+#' Install proliks package
+#'
+#' @description 
+#' This function install proliks (likelihood-based inference) 
+#' contact F. Rousset for more informations
+#'
+#' @param none
+#'
+#' @return none
+#' 
+#' @import dplyr
+#' 
+#' @export
+
+install_proliks <- function(){
+  
+  if (!requireNamespace("proliks", quietly = TRUE)) {
+    install.packages("proliks_0.1.2.tar.gz", type = "source", repos = NULL)
+  }
+  
+}
+

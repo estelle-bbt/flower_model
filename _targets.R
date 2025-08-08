@@ -23,6 +23,8 @@ list(
   
   ## Manage data ----
   
+  tar_target(proliks,install_proliks()),
+  
   tar_target(data_obs,load_data("data/pollinator_observations.txt")),
   
   tar_target(data_paternities,load_data("data/paternities.txt")),
