@@ -6,22 +6,13 @@ proliks|stem|1d47feb84585e2b4|aba0a0321569c753|cfd70f7fca96048f|1310251570||t203
 flowers_list|stem|85b18d436d8b7616|0b3f4333586a352c|967f3a3ca2ddc38e|-92268918||t20308.4442571237s|s29818b|29818|rds|local|vector|||0.1||
 seeds_info|stem|69f791d06be97edc|06c62ab33f62b8c3|b9757fc6eb10bc9f|-2062863911||t20308.4442573552s|s2896b|2896|rds|local|vector|||0.012||
 bumblebees_list|stem|2ff38612a4c7f39e|a6cced27eb34067c|d238b814ab7a5079|256366836||t20308.5830583338s|s8922b|8922|rds|local|vector|||54||
-calc_logl|function|e0ca7e5da0bf1367|||||||||||||||
-format_flowers_list|function|fdea913629b23f5a|||||||||||||||
-format_bumblebees_list|function|86a68269a10b0476|||||||||||||||
-.Random.seed|object|ede69a6b17cc66fc|||||||||||||||
-format_seeds_info|function|50bb801ac6fd99de|||||||||||||||
-load_data|function|61dd1713ca7e555e|||||||||||||||
-install_proliks|function|2a62dc4d64e28944|||||||||||||||
-logL|function|24ad36083ed2a93e|||||||||||||||
-get_lik_and_ci|function|4b10f963b68453f8|||||||||||||||
-lik_and_ci|stem||13affbed15309e82|b18049dfeb51accc|-381462369||t20308.5849189936s||0|rds|local|vector|||0.518||objet bumblebees_list introuvable
 calc_logl|function|e0ca7e5da0bf1367
 format_flowers_list|function|fdea913629b23f5a
 format_bumblebees_list|function|86a68269a10b0476
-.Random.seed|object|04f4ffbe550c0fbe
+.Random.seed|object|77605d41f404089d
 format_seeds_info|function|50bb801ac6fd99de
 load_data|function|61dd1713ca7e555e
 install_proliks|function|2a62dc4d64e28944
-logL|function|3dff4f065a4a69ed
-get_lik_and_ci|function|c84be0e6cc00ec7f
+logL|function|9f448225e177e67c
+get_lik_and_ci|function|1db6560eb7094aef
+lik_and_ci|stem|90728b72767652c9|13affbed15309e82|b9a5e762ce1d4a96|-381462369||t20311.3337184033s|s196b|196|rds|local|vector|||738.867||

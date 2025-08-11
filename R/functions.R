@@ -218,10 +218,11 @@ calc_logl <- function(S, alpha, beta, gamma, seed_info,
 #' @export
 
 logL <- function(params, seeds_info, flowers_list, bumblebees_list) {
-  S      <- exp(unlist(params["logS"]))
-  alpha  <- exp(unlist(params["logalpha"]))
-  beta   <- exp(unlist(params["logbeta"]))
-  gamma  <- exp(unlist(params["loggamma"]))
+  # some optimizers call the function on unnamed vectors so...
+  S = exp(params[1])
+  alpha = exp(params[2])
+  beta = exp(params[3])
+  gamma = exp(params[4])
   
   nb_seeds <- nrow(seeds_info)
   logL_vals <- numeric(nb_seeds)
@@ -296,4 +297,4 @@ get_lik_and_ci <- function(seeds_info = seeds_info,
   return(output)
 }
 
-# get_lik_and_ci(seeds_info = seeds_info)
+# get_lik_and_ci(seeds_info = seeds_info, flowers_list = flowers_list, bumblebees_list = bumblebees_list)
